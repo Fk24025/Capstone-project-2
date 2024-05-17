@@ -1,0 +1,39 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: grey;
+}
+
+.hero-section {
+    background-color: aquamarine;
+    margin-bottom: -50px;
+    margin-top: -50px;
+    }
+.resume-section {
+background-color: bisque;
+}
+#contacts{
+    background-color: pink;
+}
+#about{
+    background-color: aqua;
+}
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    margin-top: -50px;
+  }
+  
+  @keyframes gradient-animation {
+    0% {background-color: pink;
+      background-position: 0% 50%;
+    }
+    50% {background-color: red;
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
